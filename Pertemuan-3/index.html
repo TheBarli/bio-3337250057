@@ -1,52 +1,70 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="id">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Biodata</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Biodata - Barliano Gigari Setiawan</title>
 </head>
 
 <body>
-    <header>
-        <h1>Barliano Gigari Setiawan</h1>
-        <p>Mahasiswa Informatika, UNTIRTA</p>
+    <header class="header">
+        <h1 class="title">Barliano Gigari Setiawan</h1>
+        <p class="subtitle">Mahasiswa Informatika, UNTIRTA</p>
     </header>
 
-    <main>
-        <section id="tentang">
-            <h2>Tentang saya</h2>
-            <p>NIM : 3337250057</p>
-            <p>Hobi saya adalah mempelajari Hal Baru</p>
+    <main class="container">
+        <section id="tentang" class="section card">
+            <h2 class="section-title">Tentang saya</h2>
+            <div class="info-item">
+                <span class="label">NIM:</span>
+                <span class="value">3337250057</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Hobi:</span>
+                <span class="value">Mempelajari Hal Baru</span>
+            </div>
         </section>
 
-        <section id="skill">
-            <h2>Bahasa Pemrograman Favorit</h2>
-            <ul>
-                <li>C++</li>
-                <li>C#</li>
-                <li>Java</li>
+        <section id="skill" class="section card">
+            <h2 class="section-title">Bahasa Pemrograman Favorit</h2>
+            <ul class="skill-list">
+                <li class="skill-item">C++</li>
+                <li class="skill-item">C#</li>
+                <li class="skill-item">Java</li>
             </ul>
         </section>
 
-        <section id="riwayat">
-            <h2>Riwayat Pendidikan</h2>
-            <table>
-                <tr>
-                    <th>Tahun</th>
-                    <th>Jenjang</th>
-                </tr>
-                <tr>
-                    <td>2025 - sekarang</td>
-                    <td>S1 Informatika, UNTIRTA</td>
-                </tr>
+        <section id="target" class="section card">
+            <h2 class="section-title">Target Setelah Lulus</h2>
+            <ul class="target-list">
+                <li class="target-item">Freelance</li>
+                <li class="target-item">Game Dev</li>
+            </ul>
+        </section>
+
+        <section id="riwayat" class="section card">
+            <h2 class="section-title">Riwayat Pendidikan</h2>
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Jenjang</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2025 - sekarang</td>
+                        <td>S1 Informatika, UNTIRTA</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
     </main>
 
-    <footer>
-        <p>Hubungi saya: barligsetiawan@gmail.com</p>
+    <footer class="footer">
+        <p class="contact">Hubungi saya: <a href="mailto:barligsetiawan@gmail.com">barligsetiawan@gmail.com</a></p>
     </footer>
 </body>
 
