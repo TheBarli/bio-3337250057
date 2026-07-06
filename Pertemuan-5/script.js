@@ -13,5 +13,5 @@ btnToggle.addEventListener("click",  () => {
     const isLightMode = body.classList.contains("light-mode");
     btnToggle.textContent = isLightMode ? "Dark Mode" : "Light Mode";
     
-    localStorage.setItem("theme", xisLightMode ? "light" : "dark");
+    localStorage.setItem("theme", isLightMode ? "light" : "dark");
 });
