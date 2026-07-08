@@ -27,7 +27,7 @@ let isFirstLoad = true;
 async function fetchRandomFact() {
     
     try {
-        const response = await fetch("https://api.ryocantsleep.com/api/facts");
+        const response = await fetch("https://catfact.ninja/fact");
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
